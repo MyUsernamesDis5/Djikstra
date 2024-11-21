@@ -19,7 +19,7 @@ public class Main {
             sc = new Scanner(f);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-            System.out.println("File not found");
+            System.out.println("Archivo no encontrado");
             java.lang.System.exit(-1);
         }
 
